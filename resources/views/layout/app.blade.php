@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>MailEclipse - @yield('title')</title>
+    <title>Clapnumber Mail Editor - @yield('title')</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,7 +25,7 @@
     <!-- Axios Library -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     @if ( request()->route()->getName() === 'newTemplate' ||
-          request()->route()->getName() === 'editMailable' || 
+          request()->route()->getName() === 'editMailable' ||
           request()->route()->getName() === 'viewTemplate')
 <!-- Editor Markdown/Html/Text -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
@@ -43,16 +43,19 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="{{ asset('vendor/maileclipse/js/maileclipse-app.js') }}"></script>
 
+    <link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.ico') }}" />
+
+
 </head>
 
 <body>
 
     @include('maileclipse::layout.header')
-        
+
     <div class="container mt-5">
         <div class="row">
 
-            @if ( request()->route()->getName() !== 'newTemplate' && 
+            @if ( request()->route()->getName() !== 'newTemplate' &&
                   request()->route()->getName() !== 'editMailable' &&
                   request()->route()->getName() !== 'viewTemplate'
                 )
@@ -62,7 +65,7 @@
             @endif
 
             @yield('content')
-            
+
 
         </div>
         @include('maileclipse::layout.footer')
