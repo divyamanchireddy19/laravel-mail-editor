@@ -1,6 +1,6 @@
 <?php
 
-namespace Qoraiche\MailEclipse;
+namespace divyamanchireddy19\MailEclipse;
 
 use ErrorException;
 use Illuminate\Database\Eloquent\Factory as EloquentFactory;
