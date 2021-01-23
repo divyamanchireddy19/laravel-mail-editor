@@ -1,11 +1,11 @@
 <?php
 
-namespace Qoraiche\MailEclipse\Http\Controllers;
+namespace divyamanchireddy19\MailEclipse\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\App;
-use Qoraiche\MailEclipse\MailEclipse;
+use divyamanchireddy19\MailEclipse\MailEclipse;
 
 class TemplatesController extends Controller
 {
