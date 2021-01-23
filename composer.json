@@ -1,15 +1,15 @@
 {
-    "name": "qoraiche/laravel-mail-editor",
+    "name": "divyamanchireddy19/laravel-mail-editor",
     "description": "Laravel Mailable Editor",
     "license": "MIT",
     "authors": [
         {
             "name": "yassine qoraiche",
-            "email": "qoraicheofficiel@hotmail.com",
-            "homepage": "https://github.com/qoraiche"
+            "email": "divyamanchireddy19@gmail.com",
+            "homepage": "https://github.com/divyamanchireddy19"
         }
     ],
-    "homepage": "https://github.com/Qoraiche/laravel-mail-editor",
+    "homepage": "https://github.com/divyamanchireddy19/laravel-mail-editor",
     "keywords": ["Laravel", "mailEclipse", "mailable-editor", "laravel-mail", "laravel-mailable", "mailable", "markdown"],
     "require": {
         "illuminate/support": "^8.0",
@@ -24,21 +24,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Qoraiche\\MailEclipse\\": "src/"
+            "divyamanchireddy19\\MailEclipse\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Qoraiche\\MailEclipse\\Tests\\": "tests"
+            "divyamanchireddy19\\MailEclipse\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Qoraiche\\MailEclipse\\MailEclipseServiceProvider"
+                "divyamanchireddy19\\MailEclipse\\MailEclipseServiceProvider"
             ],
             "aliases": {
-                "MailEclipse": "Qoraiche\\MailEclipse\\Facades\\MailEclipse"
+                "MailEclipse": "divyamanchireddy19\\MailEclipse\\Facades\\MailEclipse"
             }
         }
     }
