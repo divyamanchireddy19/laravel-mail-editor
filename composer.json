@@ -35,10 +35,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "divyamanchireddy19\\MailEclipse\\MailEclipseServiceProvider"
+                "Qoraiche\\MailEclipse\\MailEclipseServiceProvider"
             ],
             "aliases": {
-                "MailEclipse": "divyamanchireddy19\\MailEclipse\\Facades\\MailEclipse"
+                "MailEclipse": "Qoraiche\\MailEclipse\\Facades\\MailEclipse"
             }
         }
     }
