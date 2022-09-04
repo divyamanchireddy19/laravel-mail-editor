@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use divyamanchireddy19\MailEclipse\MailEclipse;
+use Qoraiche\MailEclipse\MailEclipse;
 
 class ClassNameTest extends TestCase
 {

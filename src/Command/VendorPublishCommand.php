@@ -1,6 +1,6 @@
 <?php
 
-namespace divyamanchireddy19\MailEclipse\Command;
+namespace Qoraiche\MailEclipse\Command;
 
 use Illuminate\Console\Command;
 
@@ -28,7 +28,7 @@ class VendorPublishCommand extends Command
     public function handle()
     {
         $this->call('vendor:publish', [
-            '--provider' => "divyamanchireddy19\MailEclipse\MailEclipseServiceProvider",
+            '--provider' => "Qoraiche\MailEclipse\MailEclipseServiceProvider",
         ]);
     }
 }
